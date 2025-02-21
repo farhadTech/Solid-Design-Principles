@@ -49,7 +49,7 @@ It does not handle other functionalities like: <br>
 ### JPA Entity Manager: A Clear Example of SRP
 The EntityManageer interface is responsible for managing entities within a persistence context. Its job is to provide methods for:
 
-**1.Saving entities <br>
+**1. Saving entities <br>
 2. Updating entities <br>
 3. Deleting entities <br>
 4. Fething entities <br>**
