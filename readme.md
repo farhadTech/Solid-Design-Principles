@@ -2,7 +2,7 @@
 ![solid](images/solid.png)
 **SOLID is one of the most popular sets of design principles in object-oriented software development. It's a mnemonic acronym for the following five design principles:**
 
-<a href="/Single Responsibility Principle/srp.md" target="_blank">1. Single Responsibility Principle</a>
+[1. Single Respnsibility Principle](/Single%20Responsibility%20Principle/srp.md)
  <br>
 2. Open/Closed Principle <br>
 3. Liskov Substitution Principle <br>
