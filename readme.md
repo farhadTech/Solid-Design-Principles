@@ -1,5 +1,5 @@
 # SOLID Design Principles Explained:
-
+![solid](images/solid.png)
 **SOLID is one of the most popular sets of design principles in object-oriented software development. It's a mnemonic acronym for the following five design principles:**
 
 **1. Single Responsibility Principle <br>
