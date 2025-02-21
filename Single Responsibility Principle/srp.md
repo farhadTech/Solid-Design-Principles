@@ -45,14 +45,15 @@ It does not handle other functionalities like: <br>
 * Validation <br>
 * REST APIs <br>
 * Logging <br>
-<br>
-### JPA Entity Manager -- A Clear Example of SRP <br>
-The EntityManageer interface is responsible for managing entities within a persistence context. Its job is to provide methods for: <br>
-**Saving entities <br>
-Updating entities <br>
-Deleting entities <br>
-Fething entities**
-<br>
+
+### JPA Entity Manager: A Clear Example of SRP
+The EntityManageer interface is responsible for managing entities within a persistence context. Its job is to provide methods for:
+
+**1.Saving entities <br>
+2. Updating entities <br>
+3. Deleting entities <br>
+4. Fething entities <br>**
+
 However, EntityManager does not:
 **Implement business logic <br>
 Handle user authentication <br>
@@ -94,7 +95,7 @@ Spring Data Repositories manage database operations for a single entity, without
 
 Here are more examples to understand it better:
 
-### Example 1: User Management
+## Example 1: User Management
 **Bad Practice: Violating Single Responsibility Principle**
 
 **1. Database operations <br>
@@ -175,7 +176,7 @@ Easier to test password hashing, email, and user management separately.<br>
 Future changes: changing hashing method don't affect the UserService.** <br>
 
 
-### Example 2: Product Management in an E-commerce App
+## Example 2: Product Management in an E-commerce App
 
 **Bad Practice: <br> All responsibilities in one class.**
 ![page](images/page3.png)
@@ -328,7 +329,7 @@ public class StockValidator {
 }
 ```
 
-**Order Service (Now follwing SRP)
+**Order Service (Now follwing SRP)**
 ```
 @Service
 public class OrderService {
@@ -353,7 +354,7 @@ public class OrderService {
 }
 ```
 
-###Summary:
+### Summary:
 **Good Practice:**
 Each class has a single responsibility <br>
 Easy to test <br>
