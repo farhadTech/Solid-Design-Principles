@@ -122,9 +122,9 @@ public class ProductService {
 
 **Good Practice:**<br>**We split responsibilites into three classes:**
 
-**1. ProductService -> Handles prouct operations
-2. ProductValidator -> Validates product data
-3. LoggerService -> Logs product additions**
+**1. ProductService -> Handles prouct operations <br>
+2. ProductValidator -> Validates product data <br>
+3. LoggerService -> Logs product additions <br>**
 
 ```
 @Component
@@ -167,5 +167,5 @@ public class ProductService {
 }
 ```
 **Benefits: <br>
-1.Easy to extend - can modify validation without touching ProductService. <br>
+1. Easy to extend - can modify validation without touching ProductService. <br>
 2. Better reusability - LoggerService can be used in other classes**
