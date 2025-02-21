@@ -1,5 +1,5 @@
 # Single Responsibility Principle (SRP)
->###Definition: A class should have only one reason to change.
+>Definition: A class should have only one reason to change.
 This means a class should do only one thing and be responsible for one piece of functionality.
 
 ![srp](images/srp.png)
