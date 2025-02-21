@@ -11,9 +11,9 @@ This means a class should do only one thing and be responsible for one piece of 
 
 -Bad Practice -> Violating Single Responsibility Principle
 
-** 1. Database operations
-** 2. Password hashing
-** 3. Email notification
+**1. Database operations
+2. Password hashing
+3. Email notification**
 
 ![page1](images/page1.png)
 
@@ -40,7 +40,7 @@ public class UserService {
 }
 ```
 
-+ Good Practice -> Single Responsibility Principle Applied
+**Good Practice -> Single Responsibility Principle Applied**
 
 ![page2](images/page2.png)
 
