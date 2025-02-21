@@ -2,6 +2,8 @@
 >Definition: A class should have only one reason to change.
 This means a class should do only one thing and be responsible for one piece of functionality.
 
+![srp](images/srp.png)
+
 ### How does this principle help us to build better software?
 
 **1. Testing - A class with one responsibility will have far fewer test cases. <br>
