@@ -9,10 +9,11 @@ This means a class should do only one thing and be responsible for one piece of 
 
 **Example 1: User Management**
 
-- **Bad Practice -> Violating Single Responsibility Principle**
-! 1. Database operations
-! 2. Password hashing
-! 3. Email notification
+-Bad Practice -> Violating Single Responsibility Principle
+
+** 1. Database operations
+** 2. Password hashing
+** 3. Email notification
 
 ![page1](images/page1.png)
 
