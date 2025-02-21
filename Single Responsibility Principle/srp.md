@@ -3,15 +3,15 @@
 This means a class should do only one thing and be responsible for one piece of functionality.
 
 ### How does this principle help us to build better software?
-**
-1. Testing - A class with one responsibility will have far fewer test cases. <br>
-2. Lower coupling - Less functionality in a single class will have fewer dependencies. <br>
-3. Organization - Smaller, well-organized classes are easier to search than monolithic ones. <br>
+
+1. **Testing - A class with one responsibility will have far fewer test cases.** <br>
+2. **Lower coupling - Less functionality in a single class will have fewer dependencies.**<br>
+3. **Organization - Smaller, well-organized classes are easier to search than monolithic ones.**<br>
 **
 
 ### Example 1: User Management
 
--Bad Practice -> Violating Single Responsibility Principle
+**Bad Practice: Violating Single Responsibility Principle**
 
 **1. Database operations <br>
 2. Password hashing <br>
@@ -42,7 +42,7 @@ public class UserService {
 }
 ```
 
-**Good Practice -> Single Responsibility Principle Applied**
+**Good Practice: Single Responsibility Principle Applied**
 
 ![page2](images/page2.png)
 
@@ -86,9 +86,9 @@ public class UserService {
 
 ```
 ### Single Responsibility Principles Benefits
-**Code is now modular and reusable. <br>
-**Easier to test password hashing, email, and user management separately. <br>
-**Future changes: changing hashing method don't affect the UserService. <br>
+**Code is now modular and reusable.** <br>
+**Easier to test password hashing, email, and user management separately.** <br>
+**Future changes: changing hashing method don't affect the UserService.** <br>
 
 
 ### Example 2: Product Management in an E-commerce App
@@ -120,12 +120,12 @@ public class ProductService {
 }
 ```
 
-**Good Practice:<br>We split responsibilites into three classes:**
-**
-1. ProductService -> Handles prouct operations
-2. ProductValidator -> Validates product data
-3. LoggerService -> Logs product additions
-**
+**Good Practice:**<br>**We split responsibilites into three classes:**
+
+1. **ProductService -> Handles prouct operations**
+2. **ProductValidator -> Validates product data**
+3. **LoggerService -> Logs product additions**
+
 ```
 @Component
 public class ProductValidator {
@@ -166,6 +166,6 @@ public class ProductService {
     }
 }
 ```
-**Benefits: <br>
-1. Easy to extend - can modify validation without touching ProductService. <br>
-2. Better reusability - LoggerService can be used in other classes**
+**Benefits:** <br>
+1.**Easy to extend - can modify validation without touching ProductService.** <br>
+2. **Better reusability - LoggerService can be used in other classes**
