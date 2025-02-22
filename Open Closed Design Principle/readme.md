@@ -427,3 +427,4 @@ Good Practice
 Uses separate classes per case
 Easily extendable
 No modification needed for new cases.
+
