@@ -3,11 +3,15 @@
 **SOLID is one of the most popular sets of design principles in object-oriented software development. It's a mnemonic acronym for the following five design principles:**
 
 [1. Single Respnsibility Principle](/Single%20Responsibility%20Principle/srp.md)
- <br>
-2. Open/Closed Principle <br>
-3. Liskov Substitution Principle <br>
-4. Interface Segregation Principle <br>
-5. Dependency Inversion <br>**
+<br>
+[2. Open/Closed Principle](/Open%20Closed%20Design%20Principle/readme.md)
+<br>
+[3. Liskov Substitution Principle](/Liskov%20Substitue%20Principle/readme.md)
+<br>
+[4. Interface Segregation Principle](/Interface%20Segregation%20Principle/readme.md)
+<br>
+[5. Dependency Inversion](/Dependency%20Inversion%20Principle/readme.md)
+<br>
 
 >The solid principles are a set of best practices, transformed into a set of rules after dozens of years of cumulative development experience around the world done by Software professionals.
 <br>
