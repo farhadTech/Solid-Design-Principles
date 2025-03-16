@@ -1,8 +1,10 @@
-#The Open/Closed Principle with Code Examples
+# The Open/Closed Principle with Code Examples
 
 Robert C. Martin considered this principle as "the most important principle of object-oriented design". But he wasn't the first one who defined it. Bertrand Meyer wrote about it in 1988 in his book Object-Oriented Software Construction. He Explained the Open/Closed Principle as:
 
 > "Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification."
+
+![srp](images/open_close.png)
 
 The general idea of this principle is great. It tells you to write your code so that you will be able to add new functionality without changig the existing code. That prevents situations in which a change to one of your classes also requires you to adapt all depending classes. Unfortunately, Bertrand Mayer proposes to use inheritance to achieve this goal:
 
@@ -427,4 +429,3 @@ Good Practice
 Uses separate classes per case
 Easily extendable
 No modification needed for new cases.
-

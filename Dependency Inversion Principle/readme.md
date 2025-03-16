@@ -3,6 +3,8 @@ The Dependency Inversion Principle (DIP) states that:
 1. High-Level modules should not depend on low-level modules. Both should depend on abstractions.
 2. Abstractions should not depend on details. Details shoudl depend on abstractions.
 
+![srp](images/di.png)
+
 * Why Dependency Inversion Principle important?
 * Prevents tight coupling between classes.
 * Makes the system scalable and maintainable.
@@ -208,4 +210,3 @@ public class StripePayment implements Payment {
     System.out.println("Paid $" + amount + " via Stripe.");
   }
 }
-

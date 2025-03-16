@@ -2,6 +2,8 @@
 
 > This principle states that clients should not be forces to depend on interfaces that they do not use.
 
+![srp](images/isp1.png)
+
 This is referring to something knows as interface pollution. In other words we should avoid making large interfaces that contain many methods that are considered unrelated to each other.
 
 

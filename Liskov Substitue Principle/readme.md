@@ -6,6 +6,8 @@ The Liskov Substitution principle was introduced by Barbara Liskov in her confer
 
 * If class B is a subclass of class A, we should be able to use B instead of A without unexpected behavior.
 
+![srp](images/ls.png)
+
 * Violations occur when a subclass changes behavior unexpectedly or removes functionality from the parent class.
 
 Ok, let's be honest. Such a scientific definition might be necessary, but it doesn't help a lot in our daily work as software developers. So, what does it mean for our code?
